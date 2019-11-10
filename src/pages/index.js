@@ -37,7 +37,9 @@ query {
   ) {
     edges {
       node {
-        excerpt
+        excerpt(format: HTML)
+        html
+        
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           title

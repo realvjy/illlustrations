@@ -56,7 +56,7 @@ const Challange = () => {
         </div>
         <div className="illus-wrap">
         {illlus.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
+          const title = node.frontmatter.title
           return (
             <div className="day-box">
               <div className="i-wrap">
