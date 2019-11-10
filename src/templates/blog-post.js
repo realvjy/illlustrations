@@ -14,7 +14,7 @@ class BlogPostTemplate extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
+          description={post.frontmatter.title || post.excerpt}
         />
         <article>
           <header>
@@ -31,7 +31,7 @@ class BlogPostTemplate extends React.Component {
             </p>
             <p>{post.frontmatter.author}
             {post.frontmatter.category}</p>
-            <img src={post.frontmatter.image.childImageSharp.fluid.src} />
+            <img src={post.frontmatter.png.childImageSharp.fluid.src} />
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
