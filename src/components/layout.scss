@@ -6,9 +6,10 @@
 */
 
 // Variables
-$black: #222325;
+$black: #000000;
 $white: #ffffff;
-$yellow: #FFC045;
+$green: #07B594;
+$yellow: #F7C945;
 $grey: #F1EDE9;
 $blue: #0E63F9;
 $light-grey: #353639;
@@ -74,18 +75,39 @@ html,  body{
 }
 
 .header_section{
-  background: $yellow;
+  background: $green;
   position: relative;
   overflow: hidden;
+  @media (max-width: $tablet-wide){
+    overflow: auto;
+  }
   nav{
     padding: 60px 18px;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: $mobile-landscape){
+      padding: 30px 18px;
+    }
+    .brand{
+      display: block;
+      text-align: center;
+    }
+    @media (max-width: $tablet-wide){
+      display: block;
+    }
+    @media (max-width: $mobile-landscape){
+
+    }
     .buttons{
       display: flex;
       justify-content: space-between;
+      @media (max-width: $tablet-wide){
+        display: block;
+        text-align: center;
+        margin-top: 18px;
+      }
       .btn-dwn{
         display: inline-block;
         text-align: center;
@@ -108,11 +130,15 @@ html,  body{
         padding: 24px 32px;
         border-radius: 36px;
         border:1px solid rgba(35,36,37,0.2);
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 700;
         color: $black;
+        @media (max-width: $tablet-wide){
+          font-size: 18px;
+          padding: 18px 24px;
+        }
         &:hover{
-          background: rgba(35,36,37,0.2);
+          background: rgba(35,36,37,0.06);
         }
       }
     }
@@ -121,14 +147,29 @@ html,  body{
     position: relative;
     padding-bottom: 80px;
     margin-top: 30px;
+    @media (max-width: $tablet-wide){
+      display: block;
+      text-align: center;
+      margin-top: 18px;
+      padding-bottom: 40px;
+    }
     .hero_details{
       padding: 18px;
       width: 50%;
+      @media (max-width: $tablet-wide){
+        width: 100%;
+      }
+      @media (max-width: $mobile-landscape){
+        padding: 0;
+      }
       .texts{
         h3{
           font-size: 36px;
           margin-top: 16px;
           margin-bottom: 16px;
+          @media (max-width: $mobile-landscape){
+            font-size: 28px;
+          }
         }
         h1{
           font-size: 64px;
@@ -137,12 +178,19 @@ html,  body{
           margin-top: 16px;
           margin-bottom: 18px;
           letter-spacing: -1px;
+          @media (max-width: $mobile-landscape){
+            font-size: 44px;
+          }
         }
         p{
           font-size: 22px;
           line-height: 150%;
           font-weight: 300;
           padding-right: 24px;
+          @media (max-width: $mobile-landscape){
+            font-size: 18px;
+            padding: 12px;
+          }
         }
         strong{
           font-weight: 700;
@@ -152,10 +200,14 @@ html,  body{
   }
   .hero_img{
     position: absolute;
-    top: 20px;
-    right: -100px;
+    top: 200px;
+    right: 0px;
+    @media (max-width: $tablet-wide){
+      width: 100%;
+      display: none;
+    }
     img{
-      width: 850px;
+      width: 450px;
     }
   }
 }
@@ -163,6 +215,10 @@ html,  body{
   margin-top: 20px;
   p{
     font-size: 13px;
+    line-height: 140%;
+    @media (max-width: $mobile-landscape){
+      padding: 18px;
+    }
     a{
       font-weight: 600;
     }
@@ -170,14 +226,21 @@ html,  body{
 }
 .btn-lnks{
   margin-top: 40px;
+  @media (max-width: $mobile-landscape){
+    margin-top: 20px;
+    padding: 10px;
+  }
   .btn{
     display: inline-block;
     text-align: center;
     text-decoration: none;
     padding: 18px 32px;
     border-radius: 8px;
+    margin-bottom: 12px;
+    @media (max-width: $mobile-landscape){
+    }
     h4{
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 700;
       margin-bottom: 4px;
     }
@@ -187,9 +250,13 @@ html,  body{
       letter-spacing: 1px;
     }
     &.btn-download{
-      background: $blue;
-      border:1px solid $blue;
+      background: $black;
+      border:1px solid $black;
       padding: 18px 44px;
+      margin-right: 24px;
+      @media (max-width: $mobile-landscape){
+        margin-right: 0;
+      }
       h4{
         color: $white;
       }
@@ -197,11 +264,12 @@ html,  body{
         color: $white;
       }
       &:hover{
-        background: darken($blue, 5%);
+        background: lighten($black, 8%);
       }
     }
     &.btn-coffee{
       border: 1px solid rgba(34, 35, 36, 1);
+
       h4{
 
       }
@@ -223,16 +291,20 @@ html,  body{
 }
 
 .challange{
-  background: $black;
+  background: $yellow;
   color: $white;
   .challange-wrap{
     padding: 80px 18px;
     text-align: center;
+    overflow: hidden;
     h1{
       font-size: 64px;
-      color: $white;
+      color: $black;
       font-weight: 700;
       margin-bottom: 20px;
+      @media (max-width: $mobile-landscape){
+        font-size: 28px;
+      }
     }
     p{
       font-size: 22px;
@@ -240,8 +312,11 @@ html,  body{
       font-weight: 300;
       margin: 0 auto;
       min-width: 750px;
-      color: rgba(255,255,255,0.8);
-
+      color: rgba(0,0,0,0.8);
+      @media (max-width: $mobile-landscape){
+        font-size: 16px;
+        min-width: 100%;
+      }
     }
     a{
       margin-top: 32px;
@@ -250,13 +325,17 @@ html,  body{
       text-decoration: none;
       padding: 24px 32px;
       border-radius: 8px;
-      background: $blue;
-      border:1px solid $blue;
+      background: $black;
+      border:1px solid $black;
       font-size: 24px;
       font-weight: 700;
       color: $white;
+      @media (max-width: $mobile-landscape){
+        font-size: 18px;
+        padding: 18px 24px;
+      }
       &:hover{
-        background: darken($blue, 5%);
+        background: lighten($black, 8%);
       }
     }
   }
@@ -322,12 +401,32 @@ footer{
 
 
 .illus{
+  .title{
+    margin-top: 70px;
+    padding: 18px;
+    text-align: center;
+    h1{
+      font-size: 64px;
+      font-weight: 700;
+      color: $black;
+      @media (max-width: $mobile-landscape){
+        font-size: 44px;
+      }
+    }
+  }
   .illus-wrap{
     display: flex;
     flex-wrap: wrap;
-    padding: 80px 8px;
+    padding: 20px 8px;
+    margin-bottom: 40px;
     .day-box{
       width: 25%;
+      @media (max-width: $tablet-wide){
+        width: 50%;
+      }
+      @media (max-width: $tablet){
+        width: 100%;
+      }
       .i-wrap{
         position: relative;
         margin: 10px;
@@ -339,6 +438,7 @@ footer{
           img{
             width: 100%;
             margin: 0;
+            border-radius: 4px;
           }
         }
         .info{
@@ -351,24 +451,57 @@ footer{
           display: flex;
           justify-content: center;
           flex-direction: column;
+          transition: all ease 0.2s;
+          border-radius: 4px;
           h5{
+            font-size: 14px;
             flex-grow: 1;
             display: flex;
             margin-top: -24px;
             color: $white;
+            transition: all ease 0.2s;
+            padding: 10px;
+            line-height: 130%;
+            opacity: 0;
           }
           .btns{
-            margin-bottom: -30px;
+            margin-bottom: -60px;
+            transition: all ease 0.2s;
+            padding: 18px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            opacity: 0;
+            a{
+              display: flex;
+              font-weight: 600;
+              text-decoration: none;
+              padding: 10px 18px;
+              margin: 0 8px;
+              border-radius: 6px;
+            }
+            .btn-svg{
+              background: $blue;
+              color: $white;
+              border: 1px solid $blue;
+            }
+            .btn-png{
+              border: 1px solid $white;
+              color: $white;
+            }
           }
         }
         &:hover{
           .info{
-            background: rgba(0,0,0,.2);
+            background: rgb(34,35,37);
+            background: linear-gradient(0deg, rgba(34,35,37,0.7) 0%, rgba(34,35,37,0) 20%, rgba(34,35,37,0) 80%, rgba(34,35,37,0.7) 100%);
             h5{
               margin-top: 0;
+              opacity: 1;
             }
             .btns{
               margin-bottom: 0;
+              opacity: 1;
             }
           }
         }

@@ -18,7 +18,7 @@ class Layout extends React.Component {
       <section className="header_section">
         <div className="container">
         <div className="hero_img">
-          <img src="/dot-notebook.png" />
+          <img src="/notebook.png" />
         </div>
           <nav>
             <Link to={`/`} className="brand">
@@ -43,7 +43,7 @@ class Layout extends React.Component {
                   <h4>Download All</h4>
                   <span>AI, EPS, SVG, PNG</span>
                 </a>
-                <a href="#" className="btn btn-coffee m-24">
+                <a href="#" className="btn btn-coffee">
                   <h4>Buy me a coffee</h4>
                   <span>and show some love</span>
                 </a>

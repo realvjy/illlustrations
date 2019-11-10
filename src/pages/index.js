@@ -7,7 +7,7 @@ import Illustrations from "../components/100-illustrations"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-class BlogIndex extends React.Component {
+class Index extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -23,29 +23,36 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default BlogIndex
+export default Index
 
 export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
+query {
+  site {
+    siteMetadata {
+      title
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            description
+  }
+  allMarkdownRemark(
+    sort: { fields: [frontmatter___date], order: DESC }
+  ) {
+    edges {
+      node {
+        excerpt
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          title
+          author
+          category
+          png{
+            childImageSharp {
+              fluid {
+                src
+              }
+            }
           }
         }
       }
     }
   }
+}
 `
