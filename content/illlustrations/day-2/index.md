@@ -1,9 +1,9 @@
 ---
-title: "Day 1: iPod"
-date: 2019-09-19
+title: "Day 2: Gaming COnsoled"
+date: 2019-09-27
 author: "vijay verma"
 svg: ./day2-gaming-console.svg
-png: ./day2-gaming-console-p.png
+png: ./day2-gaming-console.png
 category:
   - iphone
 tags:
@@ -11,5 +11,5 @@ tags:
   - grid
   - single
 ---
-<li><a href="./day2-gaming-console-p.png" download className="btn-png">PNG</a></li>
+<li><a href="./day2-gaming-console.png" download className="btn-png">PNG</a></li>
 <li><a href="./day2-gaming-console.svg" download className="btn-svg">SVG</a></li>
