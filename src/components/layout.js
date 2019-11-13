@@ -26,7 +26,7 @@ class Layout extends React.Component {
             </Link>
             <ul className="buttons links">
               <li>
-                <a className="btn-tw" href="https://twitter.com/intent/tweet?url=uiprint.co&text=If%20you%20love%20to%20draw%20your%20idea%20on%20paper%20and%20want%20some%20good%20sketchpad%20templates%20to%20speed%20up%20your%20design%20process.%20get%20https%3A%2F%2Fuiprint.co%20by%20%40realvjy">Share on twitter <img src="/twitter.svg"/></a>
+                <a className="btn-tw" href="https://twitter.com/intent/tweet?url=illlustrations.co&text=If%20you%20love%20to%20create%20beautifully%20landingpage%20onboarding%20get.%20free%20https%3A%2F%2Filllustrations.co%20by%20%40realvjy">Share on twitter <img src="/twitter.svg"/></a>
               </li>
 
             </ul>

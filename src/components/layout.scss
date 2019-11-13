@@ -8,7 +8,7 @@
 // Variables
 $black: #000000;
 $white: #ffffff;
-$green: #07B594;
+$green: #24D3B2;
 $yellow: #F7C945;
 $grey: #F1EDE9;
 $blue: #0E63F9;
@@ -76,7 +76,7 @@ html,  body{
 }
 
 .header_section{
-  background: $green;
+  background: $yellow;
   position: relative;
   overflow: hidden;
   @media (max-width: $tablet-wide){
@@ -292,7 +292,7 @@ html,  body{
 }
 
 .challange{
-  background: $yellow;
+  background: $green;
   color: $white;
   .challange-wrap{
     padding: 80px 18px;
@@ -320,24 +320,35 @@ html,  body{
       }
     }
     a{
-      margin-top: 32px;
       display: inline-block;
       text-align: center;
       text-decoration: none;
       padding: 24px 32px;
       border-radius: 8px;
-      background: $black;
-      border:1px solid $black;
       font-size: 24px;
       font-weight: 700;
-      color: $white;
+      margin: 12px;
+      margin-top: 32px;
       @media (max-width: $mobile-landscape){
         font-size: 18px;
         padding: 18px 24px;
       }
-      &:hover{
-        background: lighten($black, 8%);
+      &.c-dwn{
+        background: $black;
+        border:1px solid $black;
+        color: $white;
+        padding: 24px 38px;
+        &:hover{
+          background: lighten($black, 8%);
+        }
       }
+      &.c-drb{
+        border:1px solid $black;
+        &:hover{
+          background: rgba(35,36,37,0.06);
+        }
+      }
+
     }
   }
 }
