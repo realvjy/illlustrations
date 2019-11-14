@@ -1,6 +1,6 @@
 ---
 title: "Day 25: Sport Bicycle"
-date: 2019-10-20
+date: 2016-10-20
 author: "vijay verma"
 svg: ./day25-sport-bicycle.svg
 png: ./day25-sport-bicycle.png

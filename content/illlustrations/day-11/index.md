@@ -1,6 +1,6 @@
 ---
 title: "Day 11: Blackboard"
-date: 2019-10-06
+date: 2016-10-06
 author: "vijay verma"
 svg: ./day11-blackboard.svg
 png: ./day11-blackboard.png

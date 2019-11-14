@@ -1,6 +1,6 @@
 ---
 title: "Day 2: Gaming COnsoled"
-date: 2019-09-27
+date: 2016-09-27
 author: "vijay verma"
 svg: ./day2-gaming-console.svg
 png: ./day2-gaming-console.png

@@ -1,6 +1,6 @@
 ---
 title: "Day 19: Apple Watch"
-date: 2019-10-14
+date: 2016-10-14
 author: "vijay verma"
 svg: ./day19-apple-watch.svg
 png: ./day19-apple-watch.png

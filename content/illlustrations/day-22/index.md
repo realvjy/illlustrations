@@ -1,6 +1,6 @@
 ---
 title: "Day 22: Owl"
-date: 2019-10-17
+date: 2016-10-17
 author: "vijay verma"
 svg: ./day22-owl.svg
 png: ./day22-owl.png

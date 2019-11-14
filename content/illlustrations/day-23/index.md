@@ -1,6 +1,6 @@
 ---
 title: "Day 23: Radio"
-date: 2019-10-18
+date: 2016-10-18
 author: "vijay verma"
 svg: ./day23-radio.svg
 png: ./day23-radio.png

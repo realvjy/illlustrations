@@ -1,6 +1,6 @@
 ---
 title: "Day 40: Power Book 100"
-date: 2019-11-04
+date: 2016-11-04
 author: "vijay verma"
 svg: ./day40-powerbook-100.svg
 png: ./day40-powerbook-100.png

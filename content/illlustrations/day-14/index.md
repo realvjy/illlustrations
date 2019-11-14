@@ -1,6 +1,6 @@
 ---
 title: "Day 14: Forklift"
-date: 2019-10-09
+date: 2016-10-09
 author: "vijay verma"
 svg: ./day14-forklift.svg
 png: ./day14-forklift.png

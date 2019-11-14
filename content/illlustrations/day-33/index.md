@@ -1,6 +1,6 @@
 ---
 title: "Day 33: Pumpkin"
-date: 2019-10-28
+date: 2016-10-28
 author: "vijay verma"
 svg: ./day33-pumpkin.svg
 png: ./day33-pumpkin.png

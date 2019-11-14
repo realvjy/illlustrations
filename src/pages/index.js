@@ -15,7 +15,7 @@ class Index extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="illlustrations.co - opensource illustrations" />
         <Illustrations />
         <Challange />
       </Layout>
@@ -39,7 +39,7 @@ query {
       node {
         excerpt(format: HTML)
         html
-        
+
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           title

@@ -1,6 +1,6 @@
 ---
 title: "Day 28: Selfi Girl"
-date: 2019-10-23
+date: 2016-10-23
 author: "vijay verma"
 svg: ./day28-selfi-girl.svg
 png: ./day28-selfi-girl.png

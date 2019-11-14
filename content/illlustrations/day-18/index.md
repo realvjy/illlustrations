@@ -1,6 +1,6 @@
 ---
 title: "Day 18: Floppy"
-date: 2019-10-13
+date: 2016-10-13
 author: "vijay verma"
 svg: ./day18-floppy.svg
 png: ./day18-floppy.png

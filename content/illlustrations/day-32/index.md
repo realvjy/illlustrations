@@ -1,6 +1,6 @@
 ---
 title: "Day 32: Frankenstein"
-date: 2019-10-27
+date: 2016-10-27
 author: "vijay verma"
 svg: ./day32-frankenstein.svg
 png: ./day32-frankenstein.png

@@ -1,6 +1,6 @@
 ---
 title: "Day 13: IT Girl"
-date: 2019-10-08
+date: 2016-10-08
 author: "vijay verma"
 svg: ./day13-it-girl.svg
 png: ./day13-it-girl.png

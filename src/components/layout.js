@@ -34,22 +34,21 @@ class Layout extends React.Component {
           <div className="hero_wrapper">
             <div className="hero_details">
               <div className="texts">
-                <h3>Designed by realvjy</h3>
-                <h1>Download FREE illustrations Kit</h1>
+                <h1>Opensource illustrations kit</h1>
                 <p>Designed all <strong>100 awesome illustrations</strong> during 100 days of illustration challange. You can use these to design your - landing pages, mobile app or persentations.</p>
               </div>
               <div className="btn-lnks">
-                <a href="#" className="btn btn-download">
+                <a href="https://github.com/realvjy/illlustrations/releases/download/v1.0/illlustrations.co-1.0.0.zip" className="btn btn-download">
                   <h4>Download All</h4>
                   <span>AI, EPS, SVG, PNG</span>
                 </a>
-                <a href="#" className="btn btn-coffee">
+                <a href="https://www.buymeacoffee.com/EOKTJR8" className="btn btn-coffee">
                   <h4>Buy me a coffee</h4>
                   <span>and show some love</span>
                 </a>
               </div>
               <div className="license">
-              <p>Free for <a href="#">Commercial and Personal Use</a>. No need to credit, license, or anything.</p>
+              <p>Free for <a href="https://raw.githubusercontent.com/realvjy/illlustrations/develop/LICENSE">Commercial and Personal Use</a>. No need to credit, license, or anything.</p>
               </div>
             </div>
           </div>
@@ -59,7 +58,7 @@ class Layout extends React.Component {
       </>
     )
     return (
-      <div className="uiprint_main">
+      <div className="illlustrations_main">
         <header>{header}</header>
         <main className="up_i">{children}</main>
         <footer className="container footer">
@@ -69,10 +68,10 @@ class Layout extends React.Component {
               <a href="#"><img src="/logo-foot.svg"/></a>
             </div>
             <div className="menu">
-              <a href="#">Free for Commercial and Personal Use</a>
+              <a href="https://raw.githubusercontent.com/realvjy/illlustrations/develop/LICENSE">Free for Commercial and Personal Use</a>
             </div>
           </div>
-          <h3>Maker <a href="https://vijayverma.co">vijay verma</a> </h3>
+          <h3>Design & devlop <a href="https://vijayverma.co">vijay verma</a> </h3>
           <ul className="scl-lnk">
             <li><a href="https://dribbble.com/realvjy" target="__blank"><img src="/dribbble.svg"/></a></li>
             <li><a href="https://twitter.com/realvjy" target="__blank"><img src="/twitter.svg"/></a></li>

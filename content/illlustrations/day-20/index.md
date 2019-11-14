@@ -1,6 +1,6 @@
 ---
 title: "Day 20: Rocket"
-date: 2019-10-15
+date: 2016-10-15
 author: "vijay verma"
 svg: ./day20-rocket.svg
 png: ./day20-rocket.png

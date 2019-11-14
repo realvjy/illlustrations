@@ -1,6 +1,6 @@
 ---
 title: "Day 15: Color Tool"
-date: 2019-10-10
+date: 2016-10-10
 author: "vijay verma"
 svg: ./day15-color-tool.svg
 png: ./day15-color-tool.png

@@ -1,6 +1,6 @@
 ---
 title: "Day 34: Ticket"
-date: 2019-10-29
+date: 2016-10-29
 author: "vijay verma"
 svg: ./day34-ticket.svg
 png: ./day34-ticket.png

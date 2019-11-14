@@ -1,6 +1,6 @@
 ---
 title: "Day 26: Rainbow"
-date: 2019-10-21
+date: 2016-10-21
 author: "vijay verma"
 svg: ./day26-rainbow.svg
 png: ./day26-rainbow.png

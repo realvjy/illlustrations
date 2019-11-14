@@ -1,6 +1,6 @@
 ---
 title: "Day 21: Lantern"
-date: 2019-10-16
+date: 2016-10-16
 author: "vijay verma"
 svg: ./day21-Lantern.svg
 png: ./day21-Lantern.png

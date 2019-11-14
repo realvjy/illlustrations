@@ -1,6 +1,6 @@
 ---
 title: "Day 35: Firework"
-date: 2019-10-30
+date: 2016-10-30
 author: "vijay verma"
 svg: ./day35-firework.svg
 png: ./day35-firework.png

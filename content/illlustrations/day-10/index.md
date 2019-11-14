@@ -1,6 +1,6 @@
 ---
 title: "Day 10: Canvas Stand"
-date: 2019-10-05
+date: 2016-10-05
 author: "vijay verma"
 svg: ./day10-canvas-stand.svg
 png: ./day10-canvas-stand.png

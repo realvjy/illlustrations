@@ -1,6 +1,6 @@
 ---
 title: "Day 4: Polariod"
-date: 2019-09-29
+date: 2016-09-29
 author: "vijay verma"
 svg: ./day4-polariod.svg
 png: ./day4-polariod.png

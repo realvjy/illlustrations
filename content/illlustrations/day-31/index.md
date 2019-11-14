@@ -1,6 +1,6 @@
 ---
 title: "Day 31: Sweet Home"
-date: 2019-10-26
+date: 2016-10-26
 author: "vijay verma"
 svg: ./day31-sweet-home.svg
 png: ./day31-sweet-home.png

@@ -1,6 +1,6 @@
 ---
 title: "Day 6: Open Vault"
-date: 2019-10-01
+date: 2016-10-01
 author: "vijay verma"
 svg: ./day6-open-vault.svg
 png: ./day6-open-vault.png

@@ -1,6 +1,6 @@
 ---
 title: "Day 29: Selfie Boy"
-date: 2019-10-24
+date: 2016-10-24
 author: "vijay verma"
 svg: ./day29-selfie-boy.svg
 png: ./day29-selfie-boy.png

@@ -1,6 +1,6 @@
 ---
 title: "Day 12: Bed"
-date: 2019-10-07
+date: 2016-10-07
 author: "vijay verma"
 svg: ./day12-bed.svg
 png: ./day12-bed.png

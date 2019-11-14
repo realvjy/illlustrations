@@ -1,6 +1,6 @@
 ---
 title: "Day 36: Abacus"
-date: 2019-10-31
+date: 2016-10-31
 author: "vijay verma"
 svg: ./day36-abacus.svg
 png: ./day36-abacus.png

@@ -1,6 +1,6 @@
 ---
 title: "Day 3: Gaming Mouse"
-date: 2019-09-28
+date: 2016-09-28
 author: "vijay verma"
 svg: ./day3-gaming-mouse.svg
 png: ./day3-gaming-mouse.png

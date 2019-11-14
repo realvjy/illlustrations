@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `illlustrations`,
     author: `vijay verma`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Large set of opensource illustrations`,
+    siteUrl: `https://illlustrations.co`,
     social: {
       twitter: `realvjy`,
     },
@@ -57,13 +57,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `illlustrations by realvjy`,
+        short_name: `illustrations`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#F7C945`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/illlustrations-icon.png`,
       },
     },
     `gatsby-plugin-offline`,

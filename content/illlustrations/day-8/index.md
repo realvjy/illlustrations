@@ -1,6 +1,6 @@
 ---
 title: "Day 8: Printer"
-date: 2019-10-03
+date: 2016-10-03
 author: "vijay verma"
 svg: ./day8-printer.svg
 png: ./day8-printer.png
