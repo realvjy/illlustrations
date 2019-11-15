@@ -17,9 +17,6 @@ class Layout extends React.Component {
       </div>
       <section className="header_section">
         <div className="container">
-        <div className="hero_img">
-          <img src="/notebook.png" />
-        </div>
           <nav>
             <Link to={`/`} className="brand">
               <img src="/logo.svg" className="logo" />
@@ -31,27 +28,7 @@ class Layout extends React.Component {
 
             </ul>
           </nav>
-          <div className="hero_wrapper">
-            <div className="hero_details">
-              <div className="texts">
-                <h1>Opensource illustrations kit</h1>
-                <p>Designed all <strong>100 awesome illustrations</strong> during 100 days of illustration challange. You can use these to design your - landing pages, mobile app or persentations.</p>
-              </div>
-              <div className="btn-lnks">
-                <a href="https://github.com/realvjy/illlustrations/releases/download/v1.0/illlustrations.co-1.0.0.zip" className="btn btn-download">
-                  <h4>Download All</h4>
-                  <span>AI, EPS, SVG, PNG</span>
-                </a>
-                <a href="https://www.buymeacoffee.com/EOKTJR8" className="btn btn-coffee">
-                  <h4>Buy me a coffee</h4>
-                  <span>and show some love</span>
-                </a>
-              </div>
-              <div className="license">
-              <p>Free for <a href="https://raw.githubusercontent.com/realvjy/illlustrations/develop/LICENSE">Commercial and Personal Use</a>. No need to credit, license, or anything.</p>
-              </div>
-            </div>
-          </div>
+
 
         </div>
       </section>
@@ -65,10 +42,10 @@ class Layout extends React.Component {
           <div className="dev-credit">
           <div className="logo">
             <div className="nav">
-              <a href="#"><img src="/logo-foot.svg"/></a>
+              <a href="/"><img src="/logo-foot.svg"/></a>
             </div>
             <div className="menu">
-              <a href="https://raw.githubusercontent.com/realvjy/illlustrations/develop/LICENSE">Free for Commercial and Personal Use</a>
+              <a href="/license">Free for Commercial and Personal Use</a>
             </div>
           </div>
           <h3>Design & devlop <a href="https://vijayverma.co">vijay verma</a> </h3>

@@ -6,6 +6,7 @@ import Challange from "../components/challenge"
 import Illustrations from "../components/100-illustrations"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Hero from "../components/hero"
 
 class Index extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class Index extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="illlustrations.co - opensource illustrations" />
+        <Hero />
         <Illustrations />
         <Challange />
       </Layout>
