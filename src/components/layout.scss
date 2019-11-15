@@ -153,16 +153,16 @@ html,  body{
   margin-top: -10px;
   .hero_wrapper{
     position: relative;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
     overflow: hidden;
     @media (max-width: $tablet-wide){
       display: block;
       text-align: center;
-      padding-bottom: 40px;
+      padding-bottom: 60px;
     }
     .hero_img{
       position: absolute;
-      top: 0px;
+      top: -0px;
       right: 70px;
       @media (max-width: $tablet-wide){
         width: 100%;
@@ -181,6 +181,7 @@ html,  body{
     .hero_details{
       padding: 18px;
       width: 50%;
+      margin-top: 20px;
       @media (max-width: $tablet-wide){
         width: 100%;
         padding: 0;
@@ -243,65 +244,155 @@ html,  body{
     }
   }
 }
+.btn{
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 18px 32px;
+  border-radius: 8px;
+  @media (max-width: $mobile-landscape){
+  }
+  h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    line-height: 120%;
+
+  }
+  span{
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  &.btn-download{
+    background: $black;
+    border:1px solid $black;
+    padding: 18px 48px;
+    cursor: pointer;
+    display: inline-block;
+    transition: all ease 0.2s;
+    border-radius: 8px;
+    z-index: 11;
+    position: relative;
+    @media (max-width: $mobile-landscape){
+      margin-right: 0;
+    }
+    h4{
+      color: $white;
+    }
+    span{
+      color: $white;
+    }
+    &:hover{
+      background: lighten($black, 8%);
+    }
+  }
+  &.btn-coffee{
+    border: 1px solid rgba(34, 35, 36, 1);
+
+    h4{
+
+    }
+    span{
+
+    }
+    &:hover{
+      background: rgba(35,36,37, 0.05);
+      h4{
+        color: #000000;
+      }
+    }
+  }
+}
+
 .btn-lnks{
   margin-top: 30px;
+  display: flex;
   @media (max-width: $mobile-landscape){
     margin-top: 20px;
     padding: 10px;
+    flex-direction: column;
   }
-  .btn{
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    padding: 18px 32px;
-    border-radius: 8px;
-    margin-bottom: 12px;
-    @media (max-width: $mobile-landscape){
-    }
-    h4{
-      font-size: 20px;
-      font-weight: 700;
-      margin-bottom: 4px;
-    }
-    span{
-      font-weight: 300;
-      font-size: 14px;
-      letter-spacing: 1px;
-    }
-    &.btn-download{
-      background: $black;
-      border:1px solid $black;
-      padding: 18px 44px;
+  .dwn-links{
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      z-index: 8;
+      text-align: center;
       margin-right: 24px;
       @media (max-width: $mobile-landscape){
-        margin-right: 0;
+        display: block;
+        width: 100%;
       }
-      h4{
-        color: $white;
-      }
-      span{
-        color: $white;
-      }
-      &:hover{
-        background: lighten($black, 8%);
-      }
-    }
-    &.btn-coffee{
-      border: 1px solid rgba(34, 35, 36, 1);
-
-      h4{
-
-      }
-      span{
-
-      }
-      &:hover{
-        background: rgba(35,36,37, 0.05);
-        h4{
-          color: #000000;
+      .btn{
+        @media (max-width: $mobile-landscape){
+          width: 100%;
         }
       }
-    }
+      .btn-download{
+        @media (max-width: $mobile-landscape){
+          margin-bottom: 18px;
+        }
+      }
+      .dwn-list{
+        z-index: 9;
+        top: 0;
+        left: 0;
+        margin: 0;
+        position: absolute;
+        background: #fff;
+        border-radius: 8px;
+        width: 100%;
+        overflow: hidden;
+        height: 0;
+        opacity: 0;
+        -webkit-box-shadow: 0 8px 14px -2px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0 8px 14px -2px rgba(0,0,0,0.1);
+        box-shadow: 0 8px 14px -2px rgba(0,0,0,0.1);
+        -webkit-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+        -moz-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+        -ms-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+        -o-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+        transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+        >li{
+          a{
+            font-size: 16px;
+            font-weight: 500;
+            display: block;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            margin: 0 20px;
+            padding: 22px 0;
+            text-decoration: none;
+            vertical-align: middle;
+            color: $black;
+            &:hover{
+              text-decoration: underline;
+            }
+          }
+          &:last-child{
+            a{
+              border: none;
+            }
+          }
+        }
+      }
+      &:hover{
+        overflow: visible;
+        .dwn-list{
+          overflow: visible;
+          opacity: 1;
+          top: calc(100%);
+          height: auto;
+        }
+        .d-arrow{
+          img{
+            transform: scale(-1, -1);
+          }
+        }
+      }
+  }
+  a{
+
   }
 }
 
@@ -313,15 +404,22 @@ html,  body{
   background: $green;
   color: $white;
   .challange-wrap{
-    padding: 70px 18px;
+    padding: 80px 18px;
     text-align: center;
-    overflow: hidden;
+    .btn-lnks{
+      justify-content: center;
+      .btn{
+        h4{
+          margin: 0;
+        }
+      }
+    }
     h1{
       font-size: 64px;
       color: $black;
       font-weight: 700;
       margin-bottom: 10px;
-      margin-top: 20px;
+      margin-top: 30px;
       @media (max-width: $mobile-landscape){
         font-size: 28px;
       }
@@ -337,36 +435,6 @@ html,  body{
         font-size: 16px;
         min-width: 100%;
       }
-    }
-    a{
-      display: inline-block;
-      text-align: center;
-      text-decoration: none;
-      padding: 24px 32px;
-      border-radius: 8px;
-      font-size: 22px;
-      font-weight: 700;
-      margin: 12px;
-      @media (max-width: $mobile-landscape){
-        font-size: 18px;
-        padding: 18px 24px;
-      }
-      &.c-dwn{
-        background: $black;
-        border:1px solid $black;
-        color: $white;
-        padding: 24px 54px;
-        &:hover{
-          background: lighten($black, 8%);
-        }
-      }
-      &.c-drb{
-        border:1px solid $black;
-        &:hover{
-          background: rgba(35,36,37,0.06);
-        }
-      }
-
     }
   }
 }
@@ -614,4 +682,35 @@ footer{
 .summary{
   padding-top: 40px;
   border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+
+.announce-wrapper{
+  &.ph{
+    background: #da552f;
+  }
+  .an-details{
+    text-align: center;
+    padding: 10px 20px;
+    p{
+      color: $white;
+      font-size: 22px;
+      line-height: 150%;
+      a{
+        color: $white;
+        text-decoration: none;
+        strong{
+          font-weight: 600;
+        }
+      }
+      img{
+        height: 58px;
+        vertical-align: middle;
+        @media (max-width: $mobile-landscape){
+            display: block;
+            margin: 0 auto;
+        }
+      }
+    }
+  }
 }

@@ -13,25 +13,21 @@ const Hero = () => {
           </div>
           <div className="hero_details">
             <div className="texts">
-              <h1>Opensource illustrations kit</h1>
-              <p>Designed all <strong>100 awesome illustrations</strong> during 100 days of illustration challange. You can use these to design your - landing pages, mobile app or persentations.</p>
-            </div>
-
-            <div className="dwn-links">
-                <button className="download_button">
-                      Download <span className="d-arrow"><img src="/d-arrow.svg"/></span>
-                </button>
-                <ul className="dwn-list">
-                  <li><a href="#">one</a></li>
-                  <li><a href="#">two</a></li>
-                </ul>
+              <h1>Open source illustrations kit</h1>
+              <p>Designed all <strong>100 awesome illustrations</strong> during 100 days of illustration challenge. You can use these to design your - landing pages, mobile app or presentations.</p>
             </div>
 
             <div className="btn-lnks">
-              <a href="https://github.com/realvjy/illlustrations/releases/download/v1.0/illlustrations.co-1.0.0.zip" className="btn btn-download">
-                <h4>Download All</h4>
-                <span>AI, EPS, SVG, PNG</span>
-              </a>
+              <div className="dwn-links">
+                <button className="btn btn-download">
+                  <h4>Download all</h4>
+                  <span>AI, SVG, PNG and EPS</span>
+                </button>
+                <ul className="dwn-list">
+                  <li><a href="https://github.com/realvjy/illlustrations/releases/download/1.0.1/illlustrations.co-1.0.1.zip">AI, SVG and PNG Files</a></li>
+                  <li><a href="https://www.dropbox.com/sh/wd9awx71rx5fr8z/AABATGMLfrM6d_kQLj__yaQga?dl=0">EPS Files</a></li>
+                </ul>
+              </div>
               <a href="https://www.buymeacoffee.com/EOKTJR8" className="btn btn-coffee">
                 <h4>Buy me a coffee</h4>
                 <span>and show some love</span>

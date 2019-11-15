@@ -40,6 +40,14 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `keywords`,
+          content: `illlustrations, illustrations, open source illustrations, free illustration, vectors, free vector, free illustration download, realvjy, illlustrations.co, free eps, illustration kit, free vector, download illustration, open illustrations, vector download, free illlustrations, illustrator file`,
+        },
+        {
+          property: `og:image`,
+          content: `https://illlustrations.co/preview.jpg`,
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -52,12 +60,20 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:url`,
+          content: site.siteMetadata.siteUrl,
+        },
+        {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: `@realvjy`,
+        },
+        {
+          name: `twitter:url`,
+          content: site.siteMetadata.siteUrl,
         },
         {
           name: `twitter:title`,
@@ -66,6 +82,10 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:image`,
+          content: `https://illlustrations.co/preview.jpg`,
         },
       ].concat(meta)}
     />

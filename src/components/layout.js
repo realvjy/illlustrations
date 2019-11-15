@@ -11,8 +11,7 @@ class Layout extends React.Component {
       <>
       <div className="announce-wrapper ph">
         <div className="container">
-          <div className="an-details">
-          </div>
+        
         </div>
       </div>
       <section className="header_section">
@@ -23,7 +22,7 @@ class Layout extends React.Component {
             </Link>
             <ul className="buttons links">
               <li>
-                <a className="btn-tw" href="https://twitter.com/intent/tweet?url=illlustrations.co&text=If%20you%20love%20to%20create%20beautifully%20landingpage%20onboarding%20get.%20free%20https%3A%2F%2Filllustrations.co%20by%20%40realvjy">Share on twitter <img src="/twitter.svg"/></a>
+                <a className="btn-tw" href="https://twitter.com/intent/tweet?text=Open%20source%20illustrations%20kit%20with%20100%20awesome%20vectors.%20Check%20https%3A//illlustrations.co%20by%20@realvjy">Share on twitter <img src="/twitter.svg"/></a>
               </li>
 
             </ul>
