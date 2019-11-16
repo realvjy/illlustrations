@@ -24,7 +24,7 @@ class Layout extends React.Component {
             </Link>
             <ul className="buttons links">
               <li>
-                <a className="btn-tw" href="https://twitter.com/intent/tweet?text=Open%20source%20illustrations%20kit%20with%20100%20awesome%20vectors.%20Check%20https%3A//illlustrations.co%20by%20@realvjy">Share on twitter <img src="/twitter.svg"/></a>
+                <a className="btn-tw" href="https://twitter.com/intent/tweet?text=Design%20with%20these%20open-source%20illlustrations%20library.%20%20https://illlustrations.co%20by%20@realvjy">Share on twitter <img src="/twitter.svg"/></a>
               </li>
 
             </ul>
