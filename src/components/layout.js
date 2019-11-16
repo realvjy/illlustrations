@@ -11,7 +11,9 @@ class Layout extends React.Component {
       <>
       <div className="announce-wrapper ph">
         <div className="container">
-        
+          <div className="an-details">
+            <p><img src="/ph-logo.png"/>Featured on Product hunt <a href="https://www.producthunt.com/posts/illlustrations?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-illlustrations" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=174656&theme=light" alt="illlustrations - Open source illustrations library for design projects | Product Hunt Embed"/></a></p>
+          </div>
         </div>
       </div>
       <section className="header_section">
