@@ -1,5 +1,5 @@
 ---
-title: "Day 92: UI UX"
+title: "Day 94: UI UX"
 date: 2016-12-28
 author: "vijay verma"
 svg: ./day94-ui-ux.svg

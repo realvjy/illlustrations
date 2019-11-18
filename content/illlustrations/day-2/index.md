@@ -1,5 +1,5 @@
 ---
-title: "Day 2: Gaming COnsoled"
+title: "Day 2: Gaming Console"
 date: 2016-09-27
 author: "vijay verma"
 svg: ./day2-gaming-console.svg
