@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="hero_details">
             <div className="texts">
               <h1>Open source illustrations kit</h1>
-              <p>Designed all <strong>100 awesome illustrations</strong> during 100 days of illustration challenge. You can use these to design your - landing pages, mobile app or presentations.</p>
+              <p>Designed all <strong>100 awesome illustrations</strong> during 100 days of illustration challenge. Now, you can download all illustrations completely <strong>free</strong> and <strong>use</strong> these to design awesome - landing pages, mobile app or presentations.</p>
             </div>
 
             <div className="btn-lnks">

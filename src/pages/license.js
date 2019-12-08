@@ -48,7 +48,7 @@ class License extends React.Component {
                 <li>All logos and brands are registered trademarks of their respected owners. </li>
                 <li>All logos and brands are included on a promotional basis and do not represent an association with <strong>illlustrations.co</strong> or its users. </li>
                 <li>It not indicate any kind of endorsement of the trademark holder towards illlustrations.co, nor vice versa. </li>
-                <li>Are provided with the sole purpose to represent the actual brand/service/company that has registered the trademark and must not be used otherwise.</li>
+                <li>All logos are provided with the sole purpose to represent the actual brand/service/company that has registered the trademark and must not be used otherwise.</li>
               </ul>
             </div>
           </div>
