@@ -8,6 +8,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/hero"
 import Sponsored from "../components/sponsored"
+import Product from "../components/product"
 
 class Index extends React.Component {
   render() {
@@ -20,8 +21,8 @@ class Index extends React.Component {
         <SEO title="illlustrations - open source illustrations kit" />
         <Hero />
         <Illustrations />
-        <Sponsored />
         <Challange />
+        <Product />
       </Layout>
     )
   }
