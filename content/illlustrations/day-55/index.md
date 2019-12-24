@@ -4,6 +4,7 @@ date: 2016-11-19
 author: "vijay verma"
 svg: ./day55-living-room-interior.svg
 png: ./day55-living-room-interior.png
+featured: false
 category:
   - illustration
 tags:

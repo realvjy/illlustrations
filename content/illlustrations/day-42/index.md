@@ -4,6 +4,7 @@ date: 2016-11-06
 author: "vijay verma"
 svg: ./day42-imac.svg
 png: ./day42-imac.png
+featured: false
 category:
   - illustration
 tags:

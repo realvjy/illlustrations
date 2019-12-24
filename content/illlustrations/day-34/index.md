@@ -4,6 +4,7 @@ date: 2016-10-29
 author: "vijay verma"
 svg: ./day34-ticket.svg
 png: ./day34-ticket.png
+featured: false
 category:
   - illustration
 tags:

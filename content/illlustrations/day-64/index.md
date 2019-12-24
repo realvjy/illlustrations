@@ -4,6 +4,7 @@ date: 2016-11-28
 author: "vijay verma"
 svg: ./day64-followers.svg
 png: ./day64-followers.png
+featured: false
 category:
   - illustration
 tags:

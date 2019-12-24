@@ -4,6 +4,7 @@ date: 2016-11-07
 author: "vijay verma"
 svg: ./day43-ram.svg
 png: ./day43-ram.png
+featured: false
 category:
   - illustration
 tags:

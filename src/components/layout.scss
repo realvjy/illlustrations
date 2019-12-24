@@ -500,8 +500,12 @@ footer{
 
 
 .illus{
+  padding-top: 70px;
+  padding-bottom: 40px;
+  &.chris{
+    background: $grey;
+  }
   .title{
-    margin-top: 70px;
     padding: 18px;
     text-align: center;
     h1{

@@ -4,6 +4,7 @@ date: 2016-11-01
 author: "vijay verma"
 svg: ./day37-calculator.svg
 png: ./day37-calculator.png
+featured: false
 category:
   - illustration
 tags:

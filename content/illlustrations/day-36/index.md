@@ -4,6 +4,7 @@ date: 2016-10-31
 author: "vijay verma"
 svg: ./day36-abacus.svg
 png: ./day36-abacus.png
+featured: false
 category:
   - illustration
 tags:

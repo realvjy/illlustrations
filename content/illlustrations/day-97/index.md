@@ -4,6 +4,7 @@ date: 2016-12-31
 author: "vijay verma"
 svg: ./day97-champagne.svg
 png: ./day97-champagne.png
+featured: false
 category:
   - illustration
 tags:

@@ -4,6 +4,7 @@ date: 2016-11-20
 author: "vijay verma"
 svg: ./day56-tv-room.svg
 png: ./day56-tv-room.png
+featured: false
 category:
   - illustration
 tags:

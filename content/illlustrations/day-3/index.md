@@ -4,6 +4,7 @@ date: 2016-09-28
 author: "vijay verma"
 svg: ./day3-gaming-mouse.svg
 png: ./day3-gaming-mouse.png
+featured: false
 category:
   - iphone
 tags:

@@ -4,6 +4,7 @@ date: 2016-11-23
 author: "vijay verma"
 svg: ./day59-kitchen.svg
 png: ./day59-kitchen.png
+featured: false
 category:
   - illustration
 tags:

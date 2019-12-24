@@ -4,6 +4,7 @@ date: 2016-12-18
 author: "vijay verma"
 svg: ./day84-reindeer.svg
 png: ./day84-reindeer.png
+featured: true
 category:
   - illustration
 tags:

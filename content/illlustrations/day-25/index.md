@@ -4,6 +4,7 @@ date: 2016-10-20
 author: "vijay verma"
 svg: ./day25-sport-bicycle.svg
 png: ./day25-sport-bicycle.png
+featured: false
 category:
   - illustration
 tags:

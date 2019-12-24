@@ -4,6 +4,7 @@ date: 2016-11-11
 author: "vijay verma"
 svg: ./day47-chemistry-lab.svg
 png: ./day47-chemistry-lab.png
+featured: false
 category:
   - illustration
 tags:

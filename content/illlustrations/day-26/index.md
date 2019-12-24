@@ -4,6 +4,7 @@ date: 2016-10-21
 author: "vijay verma"
 svg: ./day26-rainbow.svg
 png: ./day26-rainbow.png
+featured: false
 category:
   - illustration
 tags:

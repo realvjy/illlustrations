@@ -4,6 +4,7 @@ date: 2016-11-27
 author: "vijay verma"
 svg: ./day63-school-bag.svg
 png: ./day63-school-bag.png
+featured: false
 category:
   - illustration
 tags:

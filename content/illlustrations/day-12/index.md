@@ -4,6 +4,7 @@ date: 2016-10-07
 author: "vijay verma"
 svg: ./day12-bed.svg
 png: ./day12-bed.png
+featured: false
 category:
   - iphone
 tags:

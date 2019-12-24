@@ -4,6 +4,7 @@ date: 2016-11-29
 author: "vijay verma"
 svg: ./day65-city-road.svg
 png: ./day65-city-road.png
+featured: false
 category:
   - illustration
 tags:

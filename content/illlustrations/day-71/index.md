@@ -4,6 +4,7 @@ date: 2016-12-05
 author: "vijay verma"
 svg: ./day71-designer-tool-essential.svg
 png: ./day71-designer-tool-essential.png
+featured: false
 category:
   - illustration
 tags:

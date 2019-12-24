@@ -4,6 +4,7 @@ date: 2017-01-03
 author: "vijay verma"
 svg: ./day100-the-snail.svg
 png: ./day100-the-snail.png
+featured: false
 category:
   - illustration
 tags:

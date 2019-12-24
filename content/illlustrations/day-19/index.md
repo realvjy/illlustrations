@@ -4,6 +4,7 @@ date: 2016-10-14
 author: "vijay verma"
 svg: ./day19-apple-watch.svg
 png: ./day19-apple-watch.png
+featured: false
 category:
   - iphone
 tags:

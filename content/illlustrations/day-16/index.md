@@ -4,6 +4,7 @@ date: 2016-10-11
 author: "vijay verma"
 svg: ./day16-retro-cassette.svg
 png: ./day16-retro-cassette.png
+featured: false
 category:
   - iphone
 tags:

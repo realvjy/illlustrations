@@ -4,6 +4,7 @@ date: 2016-12-13
 author: "vijay verma"
 svg: ./day79-coffee.svg
 png: ./day79-coffee.png
+featured: false
 category:
   - illustration
 tags:

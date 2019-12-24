@@ -4,6 +4,7 @@ date: 2016-10-13
 author: "vijay verma"
 svg: ./day18-floppy.svg
 png: ./day18-floppy.png
+featured: false
 category:
   - iphone
 tags:

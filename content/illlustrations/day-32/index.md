@@ -4,6 +4,7 @@ date: 2016-10-27
 author: "vijay verma"
 svg: ./day32-frankenstein.svg
 png: ./day32-frankenstein.png
+featured: false
 category:
   - illustration
 tags:

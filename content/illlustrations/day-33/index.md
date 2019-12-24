@@ -4,6 +4,7 @@ date: 2016-10-28
 author: "vijay verma"
 svg: ./day33-pumpkin.svg
 png: ./day33-pumpkin.png
+featured: false
 category:
   - illustration
 tags:

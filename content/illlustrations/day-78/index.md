@@ -4,6 +4,7 @@ date: 2016-12-12
 author: "vijay verma"
 svg: ./day78-wallet.svg
 png: ./day78-wallet.png
+featured: false
 category:
   - illustration
 tags:

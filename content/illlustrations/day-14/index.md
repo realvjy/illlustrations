@@ -4,6 +4,7 @@ date: 2016-10-09
 author: "vijay verma"
 svg: ./day14-forklift.svg
 png: ./day14-forklift.png
+featured: false
 category:
   - iphone
 tags:

@@ -4,6 +4,7 @@ date: 2016-11-17
 author: "vijay verma"
 svg: ./day53-farm.svg
 png: ./day53-farm.png
+featured: false
 category:
   - illustration
 tags:

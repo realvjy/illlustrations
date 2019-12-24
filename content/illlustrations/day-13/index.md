@@ -4,6 +4,7 @@ date: 2016-10-08
 author: "vijay verma"
 svg: ./day13-it-girl.svg
 png: ./day13-it-girl.png
+featured: false
 category:
   - iphone
 tags:

@@ -4,6 +4,7 @@ date: 2016-12-14
 author: "vijay verma"
 svg: ./day80-tea.svg
 png: ./day80-tea.png
+featured: false
 category:
   - illustration
 tags:

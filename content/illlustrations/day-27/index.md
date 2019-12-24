@@ -4,6 +4,7 @@ date: 2016-10-22
 author: "vijay verma"
 svg: ./day27-my-robot.svg
 png: ./day27-my-robot.png
+featured: false
 category:
   - illustration
 tags:

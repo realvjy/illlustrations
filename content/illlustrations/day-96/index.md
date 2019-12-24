@@ -4,6 +4,7 @@ date: 2016-12-30
 author: "vijay verma"
 svg: ./day96-camping.svg
 png: ./day96-camping.png
+featured: true
 category:
   - illustration
 tags:

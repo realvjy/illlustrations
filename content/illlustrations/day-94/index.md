@@ -4,6 +4,7 @@ date: 2016-12-28
 author: "vijay verma"
 svg: ./day94-ui-ux.svg
 png: ./day94-ui-ux.png
+featured: false
 category:
   - illustration
 tags:

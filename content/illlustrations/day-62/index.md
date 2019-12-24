@@ -4,6 +4,7 @@ date: 2016-11-26
 author: "vijay verma"
 svg: ./day62-office-bag.svg
 png: ./day62-office-bag.png
+featured: false
 category:
   - illustration
 tags:

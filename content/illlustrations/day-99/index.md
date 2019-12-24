@@ -4,6 +4,7 @@ date: 2017-01-02
 author: "vijay verma"
 svg: ./day99-pirate-boat.svg
 png: ./day99-pirate-boat.png
+featured: false
 category:
   - illustration
 tags:

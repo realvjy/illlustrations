@@ -4,6 +4,7 @@ date: 2016-11-14
 author: "vijay verma"
 svg: ./day50-pirahna.svg
 png: ./day50-pirahna.png
+featured: false
 category:
   - illustration
 tags:

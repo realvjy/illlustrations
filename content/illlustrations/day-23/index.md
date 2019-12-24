@@ -4,6 +4,7 @@ date: 2016-10-18
 author: "vijay verma"
 svg: ./day23-radio.svg
 png: ./day23-radio.png
+featured: false
 category:
   - illustration
 tags:

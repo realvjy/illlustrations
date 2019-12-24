@@ -4,6 +4,7 @@ date: 2016-10-03
 author: "vijay verma"
 svg: ./day8-printer.svg
 png: ./day8-printer.png
+featured: false
 category:
   - iphone
 tags:

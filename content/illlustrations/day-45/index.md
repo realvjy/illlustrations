@@ -4,6 +4,7 @@ date: 2016-11-09
 author: "vijay verma"
 svg: ./day45-gpu-ati.svg
 png: ./day45-gpu-ati.png
+featured: false
 category:
   - illustration
 tags:

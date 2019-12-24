@@ -4,6 +4,7 @@ date: 2016-12-11
 author: "vijay verma"
 svg: ./day77-pocket-knief.svg
 png: ./day77-pocket-knief.png
+featured: false
 category:
   - illustration
 tags:

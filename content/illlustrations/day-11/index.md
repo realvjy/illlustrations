@@ -4,6 +4,7 @@ date: 2016-10-06
 author: "vijay verma"
 svg: ./day11-blackboard.svg
 png: ./day11-blackboard.png
+featured: false
 category:
   - iphone
 tags:

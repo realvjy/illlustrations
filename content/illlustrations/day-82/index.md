@@ -4,6 +4,7 @@ date: 2016-12-16
 author: "vijay verma"
 svg: ./day82-burger.svg
 png: ./day82-burger.png
+featured: false
 category:
   - illustration
 tags:

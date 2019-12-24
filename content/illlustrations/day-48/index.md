@@ -4,6 +4,7 @@ date: 2016-11-12
 author: "vijay verma"
 svg: ./day48-medical-lab.svg
 png: ./day48-medical-lab.png
+featured: false
 category:
   - illustration
 tags:

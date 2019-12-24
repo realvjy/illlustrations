@@ -4,6 +4,7 @@ date: 2016-12-02
 author: "vijay verma"
 svg: ./day68-happy-cat.svg
 png: ./day68-happy-cat.png
+featured: false
 category:
   - illustration
 tags:

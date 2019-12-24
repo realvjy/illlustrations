@@ -4,6 +4,7 @@ date: 2016-10-24
 author: "vijay verma"
 svg: ./day29-selfie-boy.svg
 png: ./day29-selfie-boy.png
+featured: false
 category:
   - illustration
 tags:

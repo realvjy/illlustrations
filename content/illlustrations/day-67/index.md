@@ -4,6 +4,7 @@ date: 2016-12-01
 author: "vijay verma"
 svg: ./day67-dog.svg
 png: ./day67-dog.png
+featured: false
 category:
   - iphone
 tags:

@@ -4,6 +4,7 @@ date: 2016-12-25
 author: "vijay verma"
 svg: ./day91-merry-christmas.svg
 png: ./day91-merry-christmas.png
+featured: true
 category:
   - illustration
 tags:

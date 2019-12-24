@@ -4,6 +4,7 @@ date: 2016-11-21
 author: "vijay verma"
 svg: ./day57-reading-room.svg
 png: ./day57-reading-room.png
+featured: false
 category:
   - illustration
 tags:

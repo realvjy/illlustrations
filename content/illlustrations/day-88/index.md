@@ -4,6 +4,7 @@ date: 2016-12-22
 author: "vijay verma"
 svg: ./day88-jingle-bell.svg
 png: ./day88-jingle-bell.png
+featured: true
 category:
   - illustration
 tags:

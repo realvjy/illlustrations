@@ -4,6 +4,7 @@ date: 2016-12-26
 author: "vijay verma"
 svg: ./day92-freelancing.svg
 png: ./day92-freelancing.png
+featured: false
 category:
   - illustration
 tags:

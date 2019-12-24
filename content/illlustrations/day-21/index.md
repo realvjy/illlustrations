@@ -4,6 +4,7 @@ date: 2016-10-16
 author: "vijay verma"
 svg: ./day21-Lantern.svg
 png: ./day21-Lantern.png
+featured: false
 category:
   - iphone
 tags:

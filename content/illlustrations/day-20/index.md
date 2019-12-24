@@ -4,6 +4,7 @@ date: 2016-10-15
 author: "vijay verma"
 svg: ./day20-rocket.svg
 png: ./day20-rocket.png
+featured: false
 category:
   - iphone
 tags:

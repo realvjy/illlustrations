@@ -4,6 +4,7 @@ date: 2016-12-03
 author: "vijay verma"
 svg: ./day69-dotted-notebook.svg
 png: ./day69-dotted-notebook.png
+featured: false
 category:
   - illustration
 tags:

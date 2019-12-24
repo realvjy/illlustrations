@@ -4,6 +4,7 @@ date: 2016-09-26
 author: "vijay verma"
 svg: ./day1-ipod.svg
 png: ./day1-ipod.png
+featured: false
 category:
   - iphone
 tags:

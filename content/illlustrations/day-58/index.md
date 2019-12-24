@@ -4,6 +4,7 @@ date: 2016-11-22
 author: "vijay verma"
 svg: ./day58-bedroom.svg
 png: ./day58-bedroom.png
+featured: false
 category:
   - illustration
 tags:

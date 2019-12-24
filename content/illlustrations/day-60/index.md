@@ -4,6 +4,7 @@ date: 2016-11-24
 author: "vijay verma"
 svg: ./day60-bathroom.svg
 png: ./day60-bathroom.png
+featured: false
 category:
   - illustration
 tags:

@@ -4,6 +4,7 @@ date: 2016-10-19
 author: "vijay verma"
 svg: ./day24-e-scooter.svg
 png: ./day24-e-scooter.png
+featured: false
 category:
   - illustration
 tags:

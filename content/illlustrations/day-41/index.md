@@ -4,6 +4,7 @@ date: 2016-11-05
 author: "vijay verma"
 svg: ./day41-desktop.svg
 png: ./day41-desktop.png
+featured: false
 category:
   - illustration
 tags:

@@ -4,6 +4,7 @@ date: 2016-10-26
 author: "vijay verma"
 svg: ./day31-sweet-home.svg
 png: ./day31-sweet-home.png
+featured: false
 category:
   - illustration
 tags:

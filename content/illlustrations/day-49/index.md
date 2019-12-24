@@ -4,6 +4,7 @@ date: 2016-11-13
 author: "vijay verma"
 svg: ./day49-angler-fish.svg
 png: ./day49-angler-fish.png
+featured: false
 category:
   - illustration
 tags:

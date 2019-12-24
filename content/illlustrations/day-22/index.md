@@ -4,6 +4,7 @@ date: 2016-10-17
 author: "vijay verma"
 svg: ./day22-owl.svg
 png: ./day22-owl.png
+featured: false
 category:
   - illustration
 tags:

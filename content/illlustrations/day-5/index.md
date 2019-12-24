@@ -4,6 +4,7 @@ date: 2016-09-30
 author: "vijay verma"
 svg: ./day5-vault.svg
 png: ./day5-vault.png
+featured: false
 category:
   - iphone
 tags:

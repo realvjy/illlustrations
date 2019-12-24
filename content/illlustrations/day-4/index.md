@@ -4,6 +4,7 @@ date: 2016-09-29
 author: "vijay verma"
 svg: ./day4-polariod.svg
 png: ./day4-polariod.png
+featured: false
 category:
   - iphone
 tags:

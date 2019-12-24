@@ -4,6 +4,7 @@ date: 2016-12-29
 author: "vijay verma"
 svg: ./day95-app-development.svg
 png: ./day95-app-development.png
+featured: false
 category:
   - illustration
 tags:

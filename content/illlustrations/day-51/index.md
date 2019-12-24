@@ -4,6 +4,7 @@ date: 2016-11-15
 author: "vijay verma"
 svg: ./day51-whale.svg
 png: ./day51-whale.png
+featured: false
 category:
   - illustration
 tags:

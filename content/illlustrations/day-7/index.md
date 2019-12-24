@@ -4,6 +4,7 @@ date: 2016-10-02
 author: "vijay verma"
 svg: ./day7-vintage-camera.svg
 png: ./day7-vintage-camera.png
+featured: false
 category:
   - iphone
 tags:

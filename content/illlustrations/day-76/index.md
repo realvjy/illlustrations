@@ -4,6 +4,7 @@ date: 2016-12-10
 author: "vijay verma"
 svg: ./day76-watch-spectacle.svg
 png: ./day76-watch-spectacle.png
+featured: false
 category:
   - illustration
 tags:

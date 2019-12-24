@@ -4,6 +4,7 @@ date: 2017-01-01
 author: "vijay verma"
 svg: ./day98-junk-boat.svg
 png: ./day98-junk-boat.png
+featured: false
 category:
   - illustration
 tags:

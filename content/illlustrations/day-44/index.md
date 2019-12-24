@@ -4,6 +4,7 @@ date: 2016-11-08
 author: "vijay verma"
 svg: ./day44-hdd.svg
 png: ./day44-hdd.png
+featured: false
 category:
   - illustration
 tags:

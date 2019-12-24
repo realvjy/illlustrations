@@ -4,6 +4,7 @@ date: 2016-11-10
 author: "vijay verma"
 svg: ./day46-experiment-lab.svg
 png: ./day46-experiment-lab.png
+featured: false
 category:
   - illustration
 tags:

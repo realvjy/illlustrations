@@ -4,6 +4,7 @@ date: 2016-12-04
 author: "vijay verma"
 svg: ./day70-designer-fav-tool-wacom.svg
 png: ./day70-designer-fav-tool-wacom.png
+featured: false
 category:
   - illustration
 tags:

@@ -4,6 +4,7 @@ date: 2016-12-06
 author: "vijay verma"
 svg: ./day72-designer-tool-war.svg
 png: ./day72-designer-tool-war.png
+featured: false
 category:
   - illustration
 tags:

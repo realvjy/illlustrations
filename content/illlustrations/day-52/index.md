@@ -4,6 +4,7 @@ date: 2016-11-16
 author: "vijay verma"
 svg: ./day52-auntum.svg
 png: ./day52-auntum.png
+featured: false
 category:
   - illustration
 tags:

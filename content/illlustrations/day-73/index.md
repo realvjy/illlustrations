@@ -4,6 +4,7 @@ date: 2016-12-07
 author: "vijay verma"
 svg: ./day73-writing-tool.svg
 png: ./day73-writing-tool.png
+featured: false
 category:
   - illustration
 tags:

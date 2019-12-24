@@ -4,6 +4,7 @@ date: 2016-12-09
 author: "vijay verma"
 svg: ./day75-stationary-set-2.svg
 png: ./day75-stationary-set-2.png
+featured: false
 category:
   - illustration
 tags:

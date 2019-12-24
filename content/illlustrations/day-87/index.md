@@ -4,6 +4,7 @@ date: 2016-12-21
 author: "vijay verma"
 svg: ./day87-chritmas-ball.svg
 png: ./day87-chritmas-ball.png
+featured: true
 category:
   - illustration
 tags:

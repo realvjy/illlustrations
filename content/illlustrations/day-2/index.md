@@ -4,6 +4,7 @@ date: 2016-09-27
 author: "vijay verma"
 svg: ./day2-gaming-console.svg
 png: ./day2-gaming-console.png
+featured: false
 category:
   - iphone
 tags:

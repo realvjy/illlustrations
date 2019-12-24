@@ -4,6 +4,7 @@ date: 2016-11-18
 author: "vijay verma"
 svg: ./day54-building.svg
 png: ./day54-building.png
+featured: false
 category:
   - illustration
 tags:

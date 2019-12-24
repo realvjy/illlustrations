@@ -4,6 +4,7 @@ date: 2016-12-15
 author: "vijay verma"
 svg: ./day81-ice-cream.svg
 png: ./day81-ice-cream.png
+featured: false
 category:
   - illustration
 tags:

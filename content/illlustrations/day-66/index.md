@@ -4,6 +4,7 @@ date: 2016-11-30
 author: "vijay verma"
 svg: ./day66-travel.svg
 png: ./day66-travel.png
+featured: true
 category:
   - illustration
 tags:
