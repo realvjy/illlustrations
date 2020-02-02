@@ -24,7 +24,7 @@ const Hero = () => {
                   <span>AI, SVG, PNG and EPS</span>
                 </button>
                 <ul className="dwn-list">
-                  <li><a href="https://github.com/realvjy/illlustrations/releases/download/1.0.1/illlustrations.co-1.0.1.zip">AI, SVG and PNG Files</a></li>
+                  <li><a href="https://github.com/realvjy/illlustrations/releases/download/1.0.2/illlustrations.co.1.0.2.zip">AI, SVG and PNG Files</a></li>
                   <li><a href="https://www.dropbox.com/sh/wd9awx71rx5fr8z/AABATGMLfrM6d_kQLj__yaQga?dl=0">EPS Files</a></li>
                 </ul>
               </div>

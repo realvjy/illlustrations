@@ -4,7 +4,7 @@ date: 2016-12-23
 author: "vijay verma"
 svg: ./day89-christmas-gift.svg
 png: ./day89-christmas-gift.png
-featured: true
+featured: false
 category:
   - illustration
 tags:

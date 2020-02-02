@@ -4,7 +4,7 @@ date: 2016-12-20
 author: "vijay verma"
 svg: ./day86-candle.svg
 png: ./day86-candle.png
-featured: true
+featured: false
 category:
   - illustration
 tags:

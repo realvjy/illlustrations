@@ -4,7 +4,7 @@ date: 2016-12-17
 author: "vijay verma"
 svg: ./day83-snowman.svg
 png: ./day83-snowman.png
-featured: true
+featured: false
 category:
   - illustration
 tags:

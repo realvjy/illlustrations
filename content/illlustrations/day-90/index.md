@@ -4,7 +4,7 @@ date: 2016-12-24
 author: "vijay verma"
 svg: ./day90-santa.svg
 png: ./day90-santa.png
-featured: true
+featured: false
 category:
   - illustration
 tags:
