@@ -14,18 +14,19 @@ const Hero = () => {
           <div className="hero_details">
             <div className="texts">
               <h1>Open source illustrations kit</h1>
-              <p>Designed all <strong>100 awesome illustrations</strong> during 100 days of illustration challenge. Now, you can download all illustrations completely <strong>free</strong> and <strong>use</strong> these to design awesome - landing pages, mobile app or presentations.</p>
+              <p>Designed <strong>100 awesome illustrations</strong> during 100 days of illustration challenge. Now, you can download all illustrations completely <strong>free</strong> and <strong>use</strong> these to design awesome - landing pages, mobile app or presentations.</p>
             </div>
 
             <div className="btn-lnks">
               <div className="dwn-links">
                 <button className="btn btn-download">
                   <h4>Download all</h4>
-                  <span>AI, SVG, PNG and EPS</span>
+                  <span>AI, SVG, PNG, EPS and Figma</span>
                 </button>
                 <ul className="dwn-list">
                   <li><a href="https://github.com/realvjy/illlustrations/releases/download/1.0.2/illlustrations.co.1.0.2.zip">AI, SVG and PNG Files</a></li>
                   <li><a href="https://www.dropbox.com/sh/wd9awx71rx5fr8z/AABATGMLfrM6d_kQLj__yaQga?dl=0">EPS Files</a></li>
+                  <li><a href="https://www.figma.com/community/file/810922307190314237">Get Figma File</a></li>
                 </ul>
               </div>
               <a href="https://www.buymeacoffee.com/EOKTJR8" className="btn btn-coffee">
