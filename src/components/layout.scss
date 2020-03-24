@@ -808,3 +808,15 @@ footer{
     margin-right: 16px;
   }
 }
+
+.covid{
+  .illus-wrap{
+    .day-box{
+      width: 20%;
+      .i-wrap{
+        border: 1px solid rgba(0,0,0,.05);
+        border-radius: 4px;
+      }
+    }
+  }
+}

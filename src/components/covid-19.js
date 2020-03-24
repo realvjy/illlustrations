@@ -5,9 +5,9 @@ import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
 
-const Featured = () => {
+const COVID19 = () => {
   const data = useStaticQuery(graphql`
-    query featuredQuery {
+    query covidQuery {
       site {
         siteMetadata {
           title
@@ -15,7 +15,7 @@ const Featured = () => {
       }
       allMarkdownRemark(
         sort: { fields: [frontmatter___date], order: DESC }
-        filter: { frontmatter: { featured: { eq: true } } }
+        filter: { frontmatter: { category: { eq: "COVID" } } }
       ) {
         edges {
           node {
@@ -50,10 +50,10 @@ const Featured = () => {
   const illlus = data.allMarkdownRemark.edges
 
   return (
-    <section className="illus chris">
+    <section className="illus covid">
       <div className="container">
         <div className="title">
-          <h1>20 New Illustrations</h1>
+          <h1>COVID & WFH </h1>
         </div>
         <div className="illus-wrap">
         {illlus.map(({ node }) => {
@@ -81,7 +81,7 @@ const Featured = () => {
           </div>
           <div className="feature-dwn">
             <div className="btn-lnks">
-              <a href="https://github.com/realvjy/illlustrations/releases/download/1.0.2/20.illustrations.pack.zip" className="btn btn-coffee"><h4>Download New Pack</h4></a>
+              <a href="https://github.com/realvjy/illlustrations/releases/download/1.0.3/COVID.WFH.illlustrations.zip" className="btn btn-coffee"><h4>Download COVID Pack</h4></a>
               <div className="dwn-links">
                 <button className="btn btn-download">
                   <h4>Download all</h4>
@@ -99,4 +99,4 @@ const Featured = () => {
   )
 }
 
-export default Featured
+export default COVID19
