@@ -813,6 +813,12 @@ footer{
   .illus-wrap{
     .day-box{
       width: 20%;
+      @media (max-width: $tablet-wide){
+        width: 50%;
+      }
+      @media (max-width: $tablet){
+        width: 100%;
+      }
       .i-wrap{
         border: 1px solid rgba(0,0,0,.05);
         border-radius: 4px;
