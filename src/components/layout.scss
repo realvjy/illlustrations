@@ -773,6 +773,7 @@ footer{
     padding: 24px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     @media (max-width: $mobile-landscape){
         flex-direction: column;
@@ -783,7 +784,7 @@ footer{
         padding: 20px;
 
         img{
-          width: 100%;
+          width: 200px;
           @media (max-width: $mobile-landscape){
               height: 40px;
           }

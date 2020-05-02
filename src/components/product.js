@@ -11,7 +11,11 @@ const Product = () => {
       <div className="container">
         <h4>OTHER PRODUCTS</h4>
         <div className="product-wrap">
-
+          <div className="product-box">
+            <a href="https://contrauikit.com/?ref=illlustrations" target="__blank" className="p-box">
+              <img src="contra.svg" />
+            </a>
+          </div>
           <div className="product-box">
             <a href="https://uiprint.co/?ref=illlustrations" target="__blank" className="p-box">
               <img src="uiprint.svg" />
