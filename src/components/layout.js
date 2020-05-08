@@ -39,6 +39,9 @@ class Layout extends React.Component {
       <div className="illlustrations_main">
         <header>{header}</header>
         <main className="up_i">{children}</main>
+        <div className="carbon-ads">
+          <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7IT5QI&placement=illlustrationsco" id="_carbonads_js"></script>
+        </div>
         <footer className="container footer">
           <div className="dev-credit">
           <div className="logo">
