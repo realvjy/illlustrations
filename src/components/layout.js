@@ -12,7 +12,7 @@ class Layout extends React.Component {
       <div className="announce-wrapper designletter">
         <div className="container">
           <div className="an-details">
-            <p><a href="/designletter" target="_blank">Subscribe to <img src="/designletter-logo.png" /> <span>: A weekly newsletter for designers, developers and managers.</span></a></p>
+            <p><a href="https://designletter.co/?ref=illlustrations" target="_blank">Subscribe to <img src="/designletter-logo.png" /> <span>: A weekly newsletter for designers, developers and managers.</span></a></p>
           </div>
         </div>
       </div>
