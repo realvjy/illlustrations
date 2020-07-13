@@ -695,6 +695,24 @@ footer{
     background: #da552f;
     // background: $black;
   }
+  &.designletter{
+    background: #0D38CE;
+    img{
+      height: 22px!important;
+      vertical-align: middle;
+    }
+    a{
+      &:hover{
+        background: none;
+      }
+    }
+    span{
+      color: $white;
+      @media (max-width: $mobile-landscape){
+          display: none;
+      }
+    }
+  }
   .an-details{
     text-align: center;
     padding: 10px 20px;
@@ -827,11 +845,16 @@ footer{
     }
   }
 }
-
+.ph-float{
+  position: fixed;
+  bottom: 10px;
+  left: 32px;
+  z-index: 111111;
+}
 .carbon-ads{
   position: fixed;
   bottom: 10px;
-  right: 0;
+  right: 12px;
   @media (max-width: $mobile-landscape){
       display: none;
   }
