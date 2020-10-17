@@ -29,7 +29,7 @@ const Hero = () => {
                   <li><a href="https://www.figma.com/community/file/810922307190314237">Get Figma File</a></li>
                 </ul>
               </div>
-              <a href="https://www.buymeacoffee.com/EOKTJR8" className="btn btn-coffee">
+              <a href="https://www.buymeacoffee.com/realvjy" className="btn btn-coffee">
                 <h4>Buy me a coffee</h4>
                 <span>and show some love</span>
               </a>
