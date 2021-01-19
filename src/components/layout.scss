@@ -851,6 +851,26 @@ footer{
   left: 32px;
   z-index: 111111;
 }
+
+.ad-float{
+  position: fixed;
+  bottom: 100px;
+  left: 32px;
+  z-index: 111114;
+  @media (max-width: $mobile-landscape){
+      display: none;
+  }
+  a{
+    display: block;
+    line-height: 0;
+    img{
+      max-width: 180px;
+      border-radius: 12px;
+      border: 1px solid #0093ED;
+      line-height: normal;
+    }
+  }
+}
 .carbon-ads{
   position: fixed;
   bottom: 10px;

@@ -46,6 +46,12 @@ class Layout extends React.Component {
         <div className="ph-float">
           <a href="https://www.producthunt.com/posts/illlustrations?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-illlustrations" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=174656&theme=light" alt="illlustrations - Open source illustrations library for design projects | Product Hunt Embed"/></a>
         </div>
+
+        <div className="ad-float">
+          <a href="http://bit.ly/3o05NEX">
+            <img src="bloo-ads.jpg" />
+          </a>
+        </div>
         <footer className="container footer">
           <div className="dev-credit">
           <div className="logo">
