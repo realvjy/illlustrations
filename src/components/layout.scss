@@ -575,6 +575,7 @@ footer{
             display: flex;
             justify-content: center;
             opacity: 0;
+
             a{
               display: flex;
               font-weight: 600;
@@ -591,6 +592,14 @@ footer{
             .btn-png{
               border: 1px solid $white;
               color: $white;
+
+            }
+          }
+          .sold{
+            h4{
+              font-size: 32px;
+              font-weight: bold;
+              color: $blue;
             }
           }
         }

@@ -10,6 +10,7 @@ category:
 tags:
   - ai
   - svg
+  - sold
 ---
 <li><a href="./day98-junk-boat.png" download className="btn-png">PNG</a></li>
 <li><a href="./day98-junk-boat.svg" download className="btn-svg">SVG</a></li>

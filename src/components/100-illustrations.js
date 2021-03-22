@@ -25,6 +25,7 @@ const Challange = () => {
               title
               author
               category
+              tags
               svg {
                 publicURL
               }
@@ -47,7 +48,6 @@ const Challange = () => {
 
   const siteTitle = data.site.siteMetadata.title
   const illlus = data.allMarkdownRemark.edges
-
   return (
     <section className="illus">
       <div className="container">
@@ -67,10 +67,17 @@ const Challange = () => {
 
                 <div className="info">
                   <h5>{node.frontmatter.title}</h5>
-                  <div className="btns">
+                  { node.frontmatter.tags.includes('sold')?
+                  <div className="btns sold"><h4>Sold</h4></div>
+                  : <div className="btns">
                     <a href={node.frontmatter.svg.publicURL} download className="btn-svg">SVG</a>
                     <a href={node.frontmatter.png.publicURL} download className="btn-png">PNG</a>
                   </div>
+
+                  }
+
+
+
                 </div>
 
               </div>
