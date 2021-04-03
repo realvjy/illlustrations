@@ -48,7 +48,7 @@ class Layout extends React.Component {
         </div>
 
         <div className="ad-float">
-          <a href="http://bit.ly/3o05NEX">
+          <a href="http://bloouikit.com/?ref=illlustrations">
             <img src="bloo-ads.jpg" />
           </a>
         </div>
