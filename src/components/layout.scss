@@ -975,3 +975,31 @@ footer{
     }
   }
 }
+
+.promotion{
+  padding: 24px 20px;
+  a{
+    transition: all ease 0.2s;
+    .web-promo{
+      @media (max-width: $mobile-landscape){
+          display: none;
+      }
+    }
+    .mobile-promo{
+      display: none;
+      @media (max-width: $mobile-landscape){
+          display: block;
+      }
+    }
+    img{
+      width: 100%;
+      border-radius: 12px;
+    }
+    &:hover{
+      img{
+        transform: scale3d(1.01,1.01,1.01);
+      }
+    }
+  }
+
+}
