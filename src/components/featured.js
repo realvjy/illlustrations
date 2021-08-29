@@ -14,7 +14,7 @@ const Featured = () => {
         }
       }
       allMarkdownRemark(
-        sort: { fields: [frontmatter___date], order: DESC }
+        sort: { fields: [frontmatter___date], order: ASC }
         filter: { frontmatter: { featured: { eq: true } } }
       ) {
         edges {
@@ -26,6 +26,7 @@ const Featured = () => {
               title
               author
               category
+              tags
               svg {
                 publicURL
               }
@@ -74,10 +75,14 @@ const Featured = () => {
 
                 <div className="info">
                   <h5>{node.frontmatter.title}</h5>
-                  <div className="btns">
+                  { node.frontmatter.tags.includes('sold')?
+                  <div className="btns sold"><h4>Not available</h4></div>
+                  : <div className="btns">
                     <a href={node.frontmatter.svg.publicURL} download className="btn-svg">SVG</a>
                     <a href={node.frontmatter.png.publicURL} download className="btn-png">PNG</a>
                   </div>
+
+                  }
                 </div>
 
               </div>

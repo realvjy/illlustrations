@@ -68,7 +68,7 @@ const Challange = () => {
                 <div className="info">
                   <h5>{node.frontmatter.title}</h5>
                   { node.frontmatter.tags.includes('sold')?
-                  <div className="btns sold"><h4>Sold</h4></div>
+                  <div className="btns sold"><h4>Not available</h4></div>
                   : <div className="btns">
                     <a href={node.frontmatter.svg.publicURL} download className="btn-svg">SVG</a>
                     <a href={node.frontmatter.png.publicURL} download className="btn-png">PNG</a>
