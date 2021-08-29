@@ -48,8 +48,8 @@ class Layout extends React.Component {
         </div>
 
         <div className="ad-float">
-          <a href="http://bloouikit.com/?ref=illlustrations">
-            <img src="bloo-ads.jpg" />
+          <a href="https://bit.ly/3dicons-early-access">
+            <img src="3dicons.jpg" />
           </a>
         </div>
         <footer className="container footer">
