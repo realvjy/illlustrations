@@ -48,7 +48,7 @@ class Layout extends React.Component {
         </div>
 
         <div className="ad-float">
-          <a href="https://bit.ly/3dicons-early-access">
+          <a href="https://3dicons.co?ref=illlustrations">
             <img src="3dicons.jpg" />
           </a>
         </div>
