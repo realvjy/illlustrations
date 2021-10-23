@@ -10,11 +10,7 @@ class Layout extends React.Component {
     let header = (
       <>
       <div className="announce-wrapper designletter">
-        <div className="container">
-          <div className="an-details">
-            <p><a href="https://designletter.co/?ref=illlustrations" target="_blank">Subscribe to <img src="/designletter-logo.png" /> <span>: A weekly newsletter for designers, developers and managers.</span></a></p>
-          </div>
-        </div>
+        
       </div>
 
       <section className="header_section">

@@ -17,16 +17,17 @@ const Product = () => {
             </a>
           </div>
           <div className="product-box">
+            <a href="https://bloouikit.com/?ref=illlustrations" target="__blank" className="p-box">
+              <img src="bloo.svg" />
+            </a>
+          </div>
+          <div className="product-box">
             <a href="https://uiprint.co/?ref=illlustrations" target="__blank" className="p-box">
               <img src="uiprint.svg" />
             </a>
           </div>
 
-          <div className="product-box">
-            <a href="https://instagram.com/uihues?ref=illlustrations" target="__blank" className="p-box">
-              <img src="uihues.svg" />
-            </a>
-          </div>
+
 
           <div className="product-box">
             <a href="https://uilogos.co/?ref=illlustrations" className="p-box"target="__blank" >
