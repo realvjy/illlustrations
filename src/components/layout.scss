@@ -861,6 +861,8 @@ footer{
   z-index: 111111;
 }
 
+
+
 .ad-float{
   position: fixed;
   bottom: 100px;
@@ -873,13 +875,34 @@ footer{
     display: block;
     line-height: 0;
     img{
-      max-width: 300px;
+      max-height: 250px;
       border-radius: 8px;
       border: 1px solid #C1C1C1;
       line-height: normal;
     }
   }
 }
+
+.ad-float-2{
+  position: fixed;
+  bottom: 380px;
+  left: 32px;
+  z-index: 111114;
+  @media (max-width: $mobile-landscape){
+      display: none;
+  }
+  a{
+    display: block;
+    line-height: 0;
+    img{
+      max-height: 280px;
+      border-radius: 8px;
+      border: 1px solid #C1C1C1;
+      line-height: normal;
+    }
+  }
+}
+
 .carbon-ads{
   position: fixed;
   bottom: 10px;

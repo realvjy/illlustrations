@@ -10,7 +10,7 @@ class Layout extends React.Component {
     let header = (
       <>
       <div className="announce-wrapper designletter">
-        
+
       </div>
 
       <section className="header_section">
@@ -46,6 +46,12 @@ class Layout extends React.Component {
         <div className="ad-float">
           <a href="https://3dicons.co?ref=illlustrations">
             <img src="3dicons.jpg" />
+          </a>
+        </div>
+
+        <div className="ad-float-2">
+          <a href="https://bit.ly/3KlHywr">
+            <img src="nft-illlustrations-mobile.jpg" />
           </a>
         </div>
         <footer className="container footer">
