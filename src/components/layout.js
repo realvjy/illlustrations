@@ -49,11 +49,6 @@ class Layout extends React.Component {
           </a>
         </div>
 
-        <div className="ad-float-2">
-          <a href="https://bit.ly/3KlHywr">
-            <img src="nft-illlustrations-mobile.jpg" />
-          </a>
-        </div>
         <footer className="container footer">
           <div className="dev-credit">
           <div className="logo">
