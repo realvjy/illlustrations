@@ -53,12 +53,7 @@ const Featured = () => {
   return (
     <section className="illus chris">
       <div className="container">
-        <div className="promotion">
-          <a href="https://bit.ly/3KlHywr">
-            <img src="nft-illlustrations.jpg" className="web-promo"/>
-            <img src="nft-illlustrations-mobile.jpg" className="mobile-promo"/>
-          </a>
-        </div>
+
         <div className="title">
           <h1>20 New Illustrations</h1>
         </div>
