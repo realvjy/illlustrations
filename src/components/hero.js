@@ -35,8 +35,22 @@ const Hero = () => {
               </a>
             </div>
             <div className="license">
-            <p>Free for <a href="/license">Commercial and Personal Use</a>. No need to credit, license, or anything.</p>
+              <p>Free for <a href="/license">Commercial and Personal Use</a>. No need to credit, license, or anything.</p>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="fig-plug-announce">
+        <div className="left-box">
+          <div className="fig-p-logo">
+            <a href="/figma"><img src="/illlustration-plugin.svg" /></a>
+          </div>
+        </div>
+        <div className="right-box">
+          <p>Now you can insert all 120+ illustrations from the illustrations.co open-source library, directly in your Figma and FigJam files as <strong>SVG/Vector. </strong></p>
+          <div className="fig-text-btn">
+            <a href="https://www.figma.com/community/plugin/1124370159336948073/illlustrations">Install on Figma <img src="/arrow.svg" /></a>
+            <a href="/figma">More about <img src="/arrow.svg" /></a>
           </div>
         </div>
       </div>

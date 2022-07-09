@@ -11,6 +11,8 @@ import Sponsored from "../components/sponsored"
 import Product from "../components/product"
 import Featured from "../components/featured"
 import COVID19 from "../components/covid-19"
+import Nav from "../components/nav"
+import Footer from "../components/footer"
 
 class Index extends React.Component {
   render() {
@@ -21,13 +23,14 @@ class Index extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="illlustrations - open source illustrations kit" />
+        <Nav />
         <Hero />
         <COVID19 />
         <Featured />
         <Illustrations />
         <Challange />
         <Product />
-
+        <Footer />
       </Layout>
     )
   }
