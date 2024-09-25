@@ -532,6 +532,9 @@ body {
           &:hover {
             text-decoration: underline;
           }
+          &.bold{
+            font-weight: 600;
+          }
         }
 
         &:last-child {
